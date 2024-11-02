@@ -123,6 +123,19 @@
     <loc>https://jackwu925.github.io/posts/english-learning/</loc>
     <lastmod>2024-10-14T08:06:25+06:00</lastmod>
   </url><url>
+    <loc>https://jackwu925.github.io/posts/</loc>
+    <lastmod>2024-10-14T08:06:25+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://jackwu925.github.io/zh-cn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jackwu925.github.io/posts/"
+                />
+  </url><url>
     <loc>https://jackwu925.github.io/posts/english-learning/speaking/</loc>
     <lastmod>2024-10-14T08:06:25+06:00</lastmod>
   </url><url>
@@ -137,19 +150,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://jackwu925.github.io/"
-                />
-  </url><url>
-    <loc>https://jackwu925.github.io/posts/</loc>
-    <lastmod>2024-10-14T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://jackwu925.github.io/zh-cn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jackwu925.github.io/posts/"
                 />
   </url><url>
     <loc>https://jackwu925.github.io/posts/life-records/2024/0807/</loc>
