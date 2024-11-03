@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jackwu925.github.io/zh-cn/posts/travel-log/2024/</loc>
-    <lastmod>2024-08-07T08:06:25+06:00</lastmod>
+    <lastmod>2024-11-02T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://jackwu925.github.io/zh-cn/posts/travel-log/</loc>
-    <lastmod>2024-08-07T08:06:25+06:00</lastmod>
+    <lastmod>2024-11-02T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +29,7 @@
                 />
   </url><url>
     <loc>https://jackwu925.github.io/zh-cn/</loc>
-    <lastmod>2024-08-07T08:06:25+06:00</lastmod>
+    <lastmod>2024-11-02T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,8 +41,21 @@
                 href="https://jackwu925.github.io/zh-cn/"
                 />
   </url><url>
+    <loc>https://jackwu925.github.io/zh-cn/posts/travel-log/2024/0930/</loc>
+    <lastmod>2024-11-02T08:06:25+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jackwu925.github.io/posts/travel-log/2024/0930/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://jackwu925.github.io/zh-cn/posts/travel-log/2024/0930/"
+                />
+  </url><url>
     <loc>https://jackwu925.github.io/zh-cn/posts/</loc>
-    <lastmod>2024-08-07T08:06:25+06:00</lastmod>
+    <lastmod>2024-11-02T08:06:25+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -67,19 +80,6 @@
                 href="https://jackwu925.github.io/zh-cn/posts/travel-log/2024/0807/"
                 />
   </url><url>
-    <loc>https://jackwu925.github.io/zh-cn/posts/undergraduate-graduation/</loc>
-    <lastmod>2024-06-08T08:06:25+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jackwu925.github.io/posts/undergraduate-graduation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://jackwu925.github.io/zh-cn/posts/undergraduate-graduation/"
-                />
-  </url><url>
     <loc>https://jackwu925.github.io/zh-cn/posts/travel-log/2024/0607/</loc>
     <lastmod>2024-06-08T08:06:25+06:00</lastmod>
     <xhtml:link
@@ -91,6 +91,19 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://jackwu925.github.io/zh-cn/posts/travel-log/2024/0607/"
+                />
+  </url><url>
+    <loc>https://jackwu925.github.io/zh-cn/posts/undergraduate-graduation/</loc>
+    <lastmod>2024-05-15T08:06:25+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jackwu925.github.io/posts/undergraduate-graduation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://jackwu925.github.io/zh-cn/posts/undergraduate-graduation/"
                 />
   </url><url>
     <loc>https://jackwu925.github.io/zh-cn/posts/travel-log/2023/</loc>
@@ -141,18 +154,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://jackwu925.github.io/zh-cn/tags/"
-                />
-  </url><url>
-    <loc>https://jackwu925.github.io/zh-cn/posts/travel-log/2024/0930/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jackwu925.github.io/posts/travel-log/2024/0930/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://jackwu925.github.io/zh-cn/posts/travel-log/2024/0930/"
                 />
   </url>
 </urlset>
