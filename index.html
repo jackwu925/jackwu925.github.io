@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.129.0">
+    <title>The J Word</title>
+    
+    
+      
+      
+        
+      
+    
+    <meta name="description" content="Portfolio and personal blog of Jack Wu." />
+    
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.bc4dfa6b331495bc6bf3663d194234cbb0a8a6ac1074d3f3765cd348261a04f1.css" integrity="sha256-vE36azMUlbxr82Y9GUI0y7CopqwQdNPzdlzTSCYaBPE=" />
+
+
+
+
+
+  
+
+  
+  
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/inverted-logo.svg" />
+
+
+<link rel="alternate" type="application/rss+xml" href="https://jackwu925.github.io/index.xml" title="The J Word">
+
+
+
+
+
+
+
+
+<meta property="og:title" content="The J Word"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Portfolio and personal blog of Jack Wu."/>
+<meta property="og:image" content="/images/author/jack.png">
+<meta property="og:url" content="https://jackwu925.github.io">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The J Word">
+
+
+
+    
+        
+            
+            
+
+            
+            
+
+            
+            
+                
+                    <script data-goatcounter="https://jackwu.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+                    
+            
+
+            
+            
+
+            
+
+            
+
+            
+        
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#top-navbar" data-bs-offset="100">
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow transparent-navbar homepage" id="top-navbar">
+  <div class="container">
+    
+    <a class="navbar-brand" href="/">
+      
+        <img src="/images/inverted-logo.svg" id="logo" alt="Logo">
+      The J Word</a>
+    <button
+      class="navbar-toggler navbar-dark"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+              
+            
+            
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#publications">Publications</a>
+                </li>
+              
+            
+            
+            
+            
+            
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/posts">All posts</a>
+          </li>
+        
+        
+        
+            
+        
+        
+          
+
+  
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+            
+            <span class="fi fi-gb"></span>
+        
+        English
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/">
+            
+                
+                <span class="fi fi-gb"></span>
+            
+            English
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/zh-cn">
+            
+                
+                <span class="fi fi-zh-cn"></span>
+            
+            简体中文
+        </a>
+        
+    </div>
+    </li>
+
+        
+        
+          
+
+
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo.svg" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo.svg" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+  
+</nav>
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid home" id="home">
+  <style>
+     
+    #homePageBackgroundImageDivStyled {
+      background-image: url('/images/site/background_hu9dfc2cb03920796543cec6b50c46b880_20963767_500x0_resize_q75_box.jpg');
+    }
+     
+    @media (min-width: 500px) and (max-width: 800px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu9dfc2cb03920796543cec6b50c46b880_20963767_800x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 801px) and (max-width: 1200px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu9dfc2cb03920796543cec6b50c46b880_20963767_1200x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 1201px) and (max-width: 1500px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu9dfc2cb03920796543cec6b50c46b880_20963767_1500x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 1501px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background.jpg');
+        }
+    }
+
+    html[data-theme='dark'] {
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/site/background_dark_hu9cbb53340b730cb14d97f425984cecfc_191854_500x0_resize_q75_box.jpeg');
+      }
+       
+      @media (min-width: 500px) and (max-width: 800px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_dark_hu9cbb53340b730cb14d97f425984cecfc_191854_800x0_resize_q75_box.jpeg');
+        }
+      }
+      @media (min-width: 801px) and (max-width: 1200px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_dark_hu9cbb53340b730cb14d97f425984cecfc_191854_1200x0_resize_q75_box.jpeg');
+        }
+      }
+      @media (min-width: 1201px) and (max-width: 1500px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_dark_hu9cbb53340b730cb14d97f425984cecfc_191854_1500x0_resize_q75_box.jpeg');
+        }
+      }
+      @media (min-width: 1501px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_dark.jpeg');
+        }
+      }
+    }
+    </style>
+    <span class="on-the-fly-behavior"></span>
+  <div
+    id="homePageBackgroundImageDivStyled"
+    class="background container-fluid"
+  ></div>
+  <div class="container content text-center">
+    <img src="/images/author/jack_hu2090e01469dbc640b95cecf242de124d_229751_148x148_fit_box_3.png"
+      class="rounded-circle mx-auto d-block img-fluid"
+      alt="Author Image"
+    />
+    <h1 class="greeting"> Hi, I am Jack</h1>
+    
+    <div class="typing-carousel">
+      <span id="ityped" class="ityped"></span>
+      <span class="ityped-cursor"></span>
+    </div>
+    <ul id="typing-carousel-data">
+      
+        
+          <li>I am a PhD candidate</li>
+        
+          <li>I focus on LIBs</li>
+        
+          <li>I enjoy working in a team</li>
+        
+          <li>I love programming</li>
+        
+          <li>I love traveling</li>
+        
+          <li>I plan to pursue a Ph.D</li>
+        
+          <li>Everything is towarding to the best!</li>
+        
+      
+    </ul>
+    
+      
+        
+        
+          
+        
+        <a href="#about" class="arrow-center" aria-label="Read More - Jack"><i class="arrow bounce fa fa-chevron-down"></i></a>
+      
+    
+  </div>
+</div>
+
+    
+    
+      
+    
+
+    
+      
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+  
+
+
+
+
+  
+
+
+<div class="container anchor p-lg-5 about-section" id="about">
+  <div class="row pt-sm-2 pt-md-4 align-self-center">
+    
+    
+     <div class="col-sm-6"> 
+      <h3 class="p-1">Jack Wu</h3>
+      
+      <h5 class="p-1">
+        Master-to-PhD program
+        
+        at <a href="https://en.ustc.edu.cn/" title="University of Science and Technology of China" target="_blank" rel="noopener">University of Science and Technology of China</a>
+        
+      </h5>
+      
+      <p class="p-1 text-justify">
+        I am currently pursuing a PhD at the University of Science and Technology of China (USTC), with a research focus on the second-life utilization of lithium-ion batteries. My interests lie in the application of artificial intelligence to battery analysis and the monitoring of battery safety conditions.
+      </p>
+      <div class="text-container ms-auto">
+        <ul class="social-link d-flex">
+          
+          <li>
+            
+              <a href="mailto:jackwu925@mail.ustc.edu.cn" title="Email" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://github.com/Aug99Jack" title="Github" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.researchgate.net/profile/Zhenwei-Wu-9" title="ResearchGate" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://orcid.org/0009-0002-7307-8864" title="ORCID" target="_blank" rel="noopener"><i class="fab fa-orcid"></i></a>
+            
+          </li>
+          
+        </ul>
+      </div>
+      
+      
+      <a href="/files/resume_en.pdf" title="Resume" target="#"
+        ><button class="btn btn-dark">Resume</button></a
+      >
+      
+    </div>
+    
+    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
+      <div class="row">
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="https://en.ustc.edu.cn/" target="_blank" rel="noopener noreferrer">
+       <img src="https://s21.ax1x.com/2024/08/29/pAAcNge.png" alt="master" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer">
+       <img src="https://s21.ax1x.com/2024/08/29/pAAcVhT.png" alt="undergraduate" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="https://en.swjtu.edu.cn/" target="_blank" rel="noopener noreferrer">
+       <img src="https://s21.ax1x.com/2024/08/29/pAA6jtf.png" alt="undergraduate" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    <div class="circular-progress blue">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Mandarin</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    <div class="circular-progress orange">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-30  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">English</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+    <div class="circular-progress green">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-0  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-10"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">Spanish</div>
+    </div>
+
+</div>
+
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-secondary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 skills-section" id="skills">
+  
+    <h1 class="text-center">
+        <span id="skills"></span>Skills</h1>
+  
+  
+  <div class="container d-flex-block">
+    <div class="row" id="primary-skills">
+  
+      
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/python_hu39c66cb65c2796b1da442c619835c55f_698010_24x24_fit_box_3.png" alt="Python" />
+          <h5 class="card-title">Python</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Familiar with the writing of Python programs, able to configure the environment for various complex programs, able to call packages of specified versions, and capable to use Python programs to implement specific functions</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/battery_hu29076ac8c732ea6b970a8bd4f6fbc0e6_251097_24x24_fit_box_3.png" alt="Heat experiment" />
+          <h5 class="card-title">Heat experiment</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Experienced in conducting thermal safety tests on batteries, able to use kinds of instrucments independently and analyze thermal runaway behavior, temperature profiles, and the assessment of battery safety under various conditions.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/linux_huf8888e89df43f58ab32b560cb211e230_26357_24x24_fit_box_3.png" alt="Linux" />
+          <h5 class="card-title">Linux</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">I am currently learning Linux, focusing on mastering command-line operations, shell scripting, and system administration to enhance my technical skills for research and development.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/machine-learning_hu3289f5c65a7f1c63a2c18ea0835790cd_40610_24x24_fit_box_3.png" alt="Machine Learning" />
+          <h5 class="card-title">Machine Learning</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Understand machine learning principles, including supervised and unsupervised learning. Familiar with models like regression, decision trees, SVM, k-NN, and neural networks. Capable of selecting the best model for various data and problems.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/deep-learning_hu1c17b6841ae3a25fce8d576137fdef53_45977_24x24_fit_box_3.png" alt="Deep Learning" />
+          <h5 class="card-title">Deep Learning</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">I have a foundational understanding of deep learning techniques and frameworks. While my experience with deep learning is still growing, I am familiar with key concepts such as neural networks, backpropagation, and popular libraries like PyTorch.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/docker.svg" alt="Docker" />
+          <h5 class="card-title">Docker</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">I have a basic understanding of Docker and containerization concepts. While my experience with Docker is still developing, I am familiar with creating and managing containers, working with Docker images.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/web.svg" alt="Web development" />
+          <h5 class="card-title">Web development</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">A technology enthusiast who is passionate about web development, able to create responsive and interactive web pages. Also have experience in web page deployment and server management.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+
+
+
+<div class="container-fluid anchor pb-5 education-section">
+  
+    <h1 class="text-center">
+        <span id="education"></span>Education</h1>
+  
+
+  <div class="container">
+    <table class="education-info-table">
+        <tbody>
+            
+            
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+
+                            
+                            
+                            
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/USTC.png" alt="Master-to-PhD program in State Key Laboratory of Fire Science" />
+                                
+                            </div>
+                            
+
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5>University of Science and Technology of China</h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">2023-Present</div>
+                            </div>
+                            <h6>Master-to-PhD program in State Key Laboratory of Fire Science</h6>
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+
+                            
+                            
+                            
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/OSU.png" alt="B.Sc. in Fire Protection and Safety Technology" />
+                                
+                            </div>
+                            
+
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5>Oklahoma State University</h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">2022-2023</div>
+                            </div>
+                            <h6>B.Sc. in Fire Protection and Safety Technology</h6>
+                            
+                                <h6><span class="text-heading">GPA: </span><span>3.83</span> out of <span>4</span></h6>
+                            
+                            
+                            
+                            
+                            <div class="taken-courses">
+                                <h6 class="text-heading">Taken Courses:</h6>
+                                
+                                
+                                <table>
+                                    <thead>
+                                        <th class="course-name-header">Course Name</th>
+                                        <th>Total Credit</th>
+                                        <th>Obtained Credit</th>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr class="course ">
+                                            <td>Elements Indust Hygiene</td>
+                                            <td>A (4)</td>
+                                            <td>A (4)</td>
+                                        </tr>
+                                        
+                                        <tr class="course ">
+                                            <td>Indust Vent &amp; Smoke Control</td>
+                                            <td>A (4)</td>
+                                            <td>A (4)</td>
+                                        </tr>
+                                        
+                                        <tr class="course ">
+                                            <td>Risk Control Engineering</td>
+                                            <td>A (4)</td>
+                                            <td>A (4)</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Fire Dynamics</td>
+                                            <td>A (4)</td>
+                                            <td>B (3)</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Life Safety Analysis</td>
+                                            <td>A (4)</td>
+                                            <td>B (3)</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>System &amp; Process Safety Analysis</td>
+                                            <td>A (4)</td>
+                                            <td>B (3)</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Hazardous Materials Management</td>
+                                            <td>A (4)</td>
+                                            <td>B (3)</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                                
+                                
+                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-1"
+                                    id="show-more-btn">Show More</button>
+                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-1"
+                                    id="show-less-btn">Show Less</button>
+                                
+                            </div>
+                            
+                            
+                            <div class="extracurricular-activities">
+                                <h6 class="text-heading">Extracurricular Activities:</h6>
+                                <ul>
+                                
+                                    <li>Worked as a research assistant (RA) for Dr. Joshua Li.</li>
+                                
+                                    <li>Worked as a teaching assistant (TA) for Dr. Ramming.</li>
+                                
+                                    <li>Finished graduation project on &ldquo;Conceptual Model Development for Wildland Urban Interface Fire Safety Performance Analysis&rdquo;.</li>
+                                
+                                </ul>
+                            </div>
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+
+                            
+                            
+                            
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/SWJTU.png" alt="B.Sc. in Fire Protection and Safety Technology" />
+                                
+                            </div>
+                            
+
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5>Southwest Jiaotong University</h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">2019-2022</div>
+                            </div>
+                            <h6>B.Sc. in Fire Protection and Safety Technology</h6>
+                            
+                                <h6><span class="text-heading">GPA: </span><span>3.83</span> out of <span>4</span></h6>
+                            
+                            
+                            
+                            
+                            <div class="taken-courses">
+                                <h6 class="text-heading">Taken Courses:</h6>
+                                
+                                
+                                <table>
+                                    <thead>
+                                        <th class="course-name-header">Course Name</th>
+                                        <th>Total Credit</th>
+                                        <th>Obtained Credit</th>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr class="course ">
+                                            <td>Math I</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                        </tr>
+                                        
+                                        <tr class="course ">
+                                            <td>Math II</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                        </tr>
+                                        
+                                        <tr class="course ">
+                                            <td>Gen Chem for Engineers</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>General Physics I</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>College Physics II</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Survey of Organic Chemistry</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>ENGR Design with CAD</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Statics</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Fire Protection Hydraulic &amp; Water Suppression Analysis</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Thermodynamics</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Suppression &amp; Detection system</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Elementary Statistics (A)</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Technical Writing</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Fluid Mechanics</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Fundamentals of Management</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Combustion</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Engineering Thermodynamics</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                                
+                                
+                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-1"
+                                    id="show-more-btn">Show More</button>
+                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-1"
+                                    id="show-less-btn">Show Less</button>
+                                
+                            </div>
+                            
+                            
+                            <div class="extracurricular-activities">
+                                <h6 class="text-heading">Extracurricular Activities:</h6>
+                                <ul>
+                                
+                                    <li>Worked as a TA in Fluid Mechanics course, etc.</li>
+                                
+                                    <li>Served as president of the Youth Volunteer Association (Non-profit organization).</li>
+                                
+                                </ul>
+                            </div>
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-secondary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 publications-section" id="publications">
+  
+    <h1 class="text-center">
+        <span id="publications"></span>Publications</h1>
+  
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="pub-group" id="publication-filter-buttons">
+      
+      <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-all">
+        All
+      </button>
+      
+      <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-machinelearning">
+        Machine Learning
+      </button>
+      
+      <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-batterysorting">
+        Battery Sorting
+      </button>
+      
+      <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-safety">
+        Safety
+      </button>
+      
+    </div>
+  </div>
+  <div class="container filtr-publications">
+    <div class="row" id="publication-card-holder">
+      
+        
+
+  
+
+  
+
+
+<div
+  class="col-12 p-2 pub-filtr-item"
+  data-category='pub-all,pub-machinelearning,pub-batterysorting'
+>
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">A fast sorting method for retired batteries based on support vector machine algorithm (Patent)</h5>
+      <div class="sub-title">
+        <span>
+          
+          <a class="" href="https://cponline.cnipa.gov.cn/index">State Intellectual Property Office</a>
+          
+        </span>
+        <span class="ms-2">November 2024</span>
+      </div>
+      <div class="authors">
+        
+        
+          <span class="me-2"><a class="" href="https://en.sklfs.ustc.edu.cn/2017/0802/c5741a190208/page.htm">Qingsong Wang</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://orcid.org/my-orcid?orcid=0009-0002-7307-8864">Zhenwei Wu</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">Qiangling Duan</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">Huang Li</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">Kaiqiang Jin</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">Pengjie Liu</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://en.sklfs.ustc.edu.cn/2018/1127/c17183a356599/page.htm">Jinhua Sun</a></span>
+        
+        
+      </div>
+    </div>
+    <div class="card-body">
+      <p>The patent proposes a method for rapidly sorting retired batteries using a support vector machine (SVM) algorithm. First, a binary feature vector is constructed from the external parameters of the retired batteries, followed by a primary classification to distinguish batteries for echelon use and direct recycling. Afterward, the battery is charged at a high rate, and the incremental capacity (IC) curve is obtained to extract key features as secondary sorting indicators. These results, combined with the primary classification, are input into a multi-classification model to achieve precise sorting, improving efficiency and accuracy in handling batteries of varying health states.</p>
+    </div>
+    <div class="card-footer">
+      <div class="tags">
+        
+            <span class="btn badge btn-info ms-1 p-2">
+              Machine Learning
+            </span>
+        
+            <span class="btn badge btn-info ms-1 p-2">
+              Battery Sorting
+            </span>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+        
+
+  
+
+
+<div
+  class="col-12 p-2 pub-filtr-item"
+  data-category='pub-all,pub-safety'
+>
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Exploring the Viability of Cryogenic Freezing for Safe Pretreatment in Lithium-Ion Battery Recycling</h5>
+      <div class="sub-title">
+        <span>
+          
+          <a class="" href="https://www.sciencedirect.com/science/article/pii/S0960148125011437?via%3Dihub">Renewable Energy</a>
+          
+        </span>
+        <span class="ms-2">May 2025</span>
+      </div>
+      <div class="authors">
+        
+        
+          <span class="me-2"><a class="" href="https://scholar.google.com.tw/citations?user=DyIU1DwAAAAJ&amp;hl=sr">Zheng Fang</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://orcid.org/my-orcid?orcid=0009-0002-7307-8864">Zhenwei Wu</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">Wei Zheng</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://chem4tech.unibs.it/">Elza Bontempi</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">Qiangling Duan</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://en.sklfs.ustc.edu.cn/2018/1127/c17183a356599/page.htm">Jinhua Sun</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://en.sklfs.ustc.edu.cn/2017/0802/c5741a190208/page.htm">Qingsong Wang</a></span>
+        
+        
+      </div>
+    </div>
+    <div class="card-body">
+      <p>Recycling of massive spent lithium-ion batteries (LIBs) is urgently required with the development of electric vehicles and energy storage industries. However, due to their complex composition and uncertain state, spent LIBs pose significant fire hazards during the recycling process. In this work, liquid nitrogen (LN) and dry ice (DI) were utilized as refrigerants to investigate the inerting mechanism and thermal stability of spent LIBs. Post-mortem and thermal analyses indicated that when spent LIBs are subjected to low temperatures (below −60 °C), the solidification of the electrolyte and the separation of internal components cause an increase in internal resistance, leading to a drop in terminal voltage where it cannot deliver energy. Nail penetration tests demonstrated that cryogenic freezing effectively suppresses thermal runaway, reducing peak internal battery temperatures from 921.2 °C to below 150 °C, with a temperature rise rate suppressed to under 3 °C/s. Additionally, DI exhibited a more sustained cooling effect than LN and is proposed as a safer and more cost-effective alternative for enhancing safety in LIBs recycling.</p>
+    </div>
+    <div class="card-footer">
+      <div class="tags">
+        
+            <span class="btn badge btn-info ms-1 p-2">
+              Battery Recycling
+            </span>
+        
+            <span class="btn badge btn-info ms-1 p-2">
+              Safety
+            </span>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+  
+
+
+
+
+
+
+<div class="container-fluid anchor pb-5 recent-posts-section">
+  
+    <h1 class="text-center">
+        <span id="recent-posts"></span>Recent Posts</h1>
+  
+  <div class="container">
+    <div class="row" id="recent-post-cards">
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/casual-writing/phd_application/" class="post-card-link">
+        <img class="card-img-top" src='/posts/casual-writing/phd_application/cover.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/casual-writing/phd_application/" class="post-card-link">
+        <h5 class="card-title">SLAI Application</h5>
+        <p class="card-text post-summary">This passage is a personal record of my PhD application journey. It focuses on the basic requirements of the process and my reflections on participating in it.Application and Exam Preparation I received the application notice from the department and my supervisor at the end of February. Shortly after that, the Shenzhen Loop Area Institute (SLAI) gave a presentation on the first-year student application process. The talk covered the examination details, program benefits, and overall objectives.</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Wednesday, May 28, 2025
+          </span>
+      <a
+      href="/posts/casual-writing/phd_application/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/casual-writing/github_tools/" class="post-card-link">
+        <img class="card-img-top" src='/posts/casual-writing/github_tools/cover.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/casual-writing/github_tools/" class="post-card-link">
+        <h5 class="card-title">Github tools</h5>
+        <p class="card-text post-summary">This article is used to organize some helpful open source gadgets that I have found, and also share them with friends who see this article. Please check the Chinese version. The English version will not be updated.</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Wednesday, May 28, 2025
+          </span>
+      <a
+      href="/posts/casual-writing/github_tools/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/travel-log/2025/0501/" class="post-card-link">
+        <img class="card-img-top" src='/posts/travel-log/2025/0501/cover.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/travel-log/2025/0501/" class="post-card-link">
+        <h5 class="card-title">Labor Rights Holiday</h5>
+        <p class="card-text post-summary">Things always change on the way of your traveling journey. This time, we kept changing our plan because of some unexpected things, such as traffic jam, road condition, and etc; but it may not be a bad thing to change your plan.&amp;#x1f697; Car selection Tank 300&amp;#x1f9ed; Self-driving map 👣Total mileage：About 2,000 kms&amp;#x1f3ac; Videos Golden SunsetYour browser does not support the video tag.Clip-VlogYour browser does not support the video tag.</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Thursday, May 1, 2025
+          </span>
+      <a
+      href="/posts/travel-log/2025/0501/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+  
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+      
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jackwu925.github.io/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jackwu925.github.io/#skills">Skills</a>
+                </li>
+              
+              
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jackwu925.github.io/#publications">Publications</a>
+                </li>
+              
+              
+              
+              
+              
+            
+              
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:jackwu925@mail.ustc.edu.cn target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>jackwu925@mail.ustc.edu.cn</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/jackwu925 target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>jackwu925</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://www.researchgate.net/profile/Zhenwei%20Wu target="_blank" rel="noopener">
+                  <span><i class="fab fa-researchgate"></i></span> <span>Jack Wu</span>
+                </a></li>            
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2025 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.9c126f35ee359b63c8d25f6c32dc6d3df6c3bb0015235178b7625b6b30c289ff.js" integrity="sha256-nBJvNe41m2PI0l9sMtxtPfbDuwAVI1F4t2JbazDCif8=" defer></script>
+
+
+    
+</body>
+</html>

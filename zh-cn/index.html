@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+	<meta name="generator" content="Hugo 0.129.0">
+    <title>The J Word</title>
+    
+    
+      
+      
+        
+      
+    
+    <meta name="description" content="Portfolio and personal blog of Jack Wu." />
+    
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" href="/application.bc4dfa6b331495bc6bf3663d194234cbb0a8a6ac1074d3f3765cd348261a04f1.css" integrity="sha256-vE36azMUlbxr82Y9GUI0y7CopqwQdNPzdlzTSCYaBPE=" />
+
+
+
+
+
+  
+
+  
+  
+  
+  
+
+  <link rel="icon" type="image/png" href="/images/inverted-logo.svg" />
+
+
+<link rel="alternate" type="application/rss+xml" href="https://jackwu925.github.io/zh-cn/index.xml" title="The J Word">
+
+
+
+
+
+
+
+
+<meta property="og:title" content="The J Word"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Portfolio and personal blog of Jack Wu."/>
+<meta property="og:image" content="/images/author/jack.png">
+<meta property="og:url" content="https://jackwu925.github.io">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The J Word">
+
+
+
+    
+        
+            
+            
+
+            
+            
+
+            
+            
+                
+                    <script data-goatcounter="https://jackwu.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+                    
+            
+
+            
+            
+
+            
+
+            
+
+            
+        
+    
+
+
+
+
+
+    <script integrity="sha256-DO4ugzEwhTW1Id1UIWn0gUJWaebCYOypeTit6LW4QB4=">
+     let theme = localStorage.getItem('theme-scheme') || localStorage.getItem('darkmode:color-scheme') || 'light'
+if (theme === 'system') {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    theme = 'dark'
+  } else {
+    theme = 'light'
+  }
+}
+document.documentElement.setAttribute('data-theme', theme)
+
+    </script>
+    
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#top-navbar" data-bs-offset="100">
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  
+  
+  
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar shadow transparent-navbar homepage" id="top-navbar">
+  <div class="container">
+    
+    <a class="navbar-brand" href="/zh-cn">
+      
+        <img src="/images/inverted-logo.svg" id="logo" alt="Logo">
+      The J Word</a>
+    <button
+      class="navbar-toggler navbar-dark"
+      id="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#top-nav-items"
+      aria-label="menu"
+    >
+      <i data-feather="menu"></i>
+    </button>
+
+    <div class="collapse navbar-collapse dynamic-navbar" id="top-nav-items">
+      <ul class="nav navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">主页</a>
+        </li>
+        
+          
+          
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">关于</a>
+                </li>
+              
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">技能</a>
+                </li>
+              
+            
+            
+            
+            
+            
+              
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="#publications">发表</a>
+                </li>
+              
+            
+            
+            
+            
+            
+          
+        
+        
+          <div id="top-navbar-divider"></div>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" id="blog-link" href="/zh-cn/posts">日志</a>
+          </li>
+        
+        
+        
+            
+        
+        
+          
+
+  
+
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="languageSelector" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+            
+            <span class="fi fi-zh-cn"></span>
+        
+        简体中文
+    </a>
+    <div class="dropdown-menu" aria-labelledby="languageSelector">
+        
+        <a class="dropdown-item nav-link languages-item" href="/">
+            
+                
+                <span class="fi fi-gb"></span>
+            
+            English
+        </a>
+        
+        <a class="dropdown-item nav-link languages-item" href="/zh-cn">
+            
+                
+                <span class="fi fi-zh-cn"></span>
+            
+            简体中文
+        </a>
+        
+    </div>
+    </li>
+
+        
+        
+          
+
+
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div id="themeMenu" class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="light">
+    <img class="theme-icon" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="dark">
+    <img class="theme-icon" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  
+  
+  <a class="dropdown-item nav-link" href="#" data-scheme="system">
+    <img class="theme-icon" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+  
+</div>
+</li>
+
+        
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/images/main-logo.svg" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/images/inverted-logo.svg" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+  
+</nav>
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid home" id="home">
+  <style>
+     
+    #homePageBackgroundImageDivStyled {
+      background-image: url('/images/site/background_hu9dfc2cb03920796543cec6b50c46b880_20963767_500x0_resize_q75_box.jpg');
+    }
+     
+    @media (min-width: 500px) and (max-width: 800px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu9dfc2cb03920796543cec6b50c46b880_20963767_800x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 801px) and (max-width: 1200px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu9dfc2cb03920796543cec6b50c46b880_20963767_1200x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 1201px) and (max-width: 1500px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_hu9dfc2cb03920796543cec6b50c46b880_20963767_1500x0_resize_q75_box.jpg');
+        }
+    }
+    @media (min-width: 1501px) {  
+      #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background.jpg');
+        }
+    }
+
+    html[data-theme='dark'] {
+       
+      #homePageBackgroundImageDivStyled {
+        background-image: url('/images/site/background_dark_hu9cbb53340b730cb14d97f425984cecfc_191854_500x0_resize_q75_box.jpeg');
+      }
+       
+      @media (min-width: 500px) and (max-width: 800px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_dark_hu9cbb53340b730cb14d97f425984cecfc_191854_800x0_resize_q75_box.jpeg');
+        }
+      }
+      @media (min-width: 801px) and (max-width: 1200px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_dark_hu9cbb53340b730cb14d97f425984cecfc_191854_1200x0_resize_q75_box.jpeg');
+        }
+      }
+      @media (min-width: 1201px) and (max-width: 1500px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_dark_hu9cbb53340b730cb14d97f425984cecfc_191854_1500x0_resize_q75_box.jpeg');
+        }
+      }
+      @media (min-width: 1501px) {  
+        #homePageBackgroundImageDivStyled {   
+          background-image: url('/images/site/background_dark.jpeg');
+        }
+      }
+    }
+    </style>
+    <span class="on-the-fly-behavior"></span>
+  <div
+    id="homePageBackgroundImageDivStyled"
+    class="background container-fluid"
+  ></div>
+  <div class="container content text-center">
+    <img src="/images/author/jack_hu2090e01469dbc640b95cecf242de124d_229751_148x148_fit_box_3.png"
+      class="rounded-circle mx-auto d-block img-fluid"
+      alt="Author Image"
+    />
+    <h1 class="greeting"> 你好，我是 Jack</h1>
+    
+    <div class="typing-carousel">
+      <span id="ityped" class="ityped"></span>
+      <span class="ityped-cursor"></span>
+    </div>
+    <ul id="typing-carousel-data">
+      
+        
+          <li>我是一名博士研究生</li>
+        
+          <li>我的研究聚焦于人工智能与锂离子电池</li>
+        
+          <li>我很喜欢旅行和摄影</li>
+        
+          <li>一切都是最好的安排！</li>
+        
+      
+    </ul>
+    
+      
+        
+        
+          
+        
+        <a href="#about" class="arrow-center" aria-label="阅读 更多 - Jack"><i class="arrow bounce fa fa-chevron-down"></i></a>
+      
+    
+  </div>
+</div>
+
+    
+    
+      
+    
+
+    
+      
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+  
+
+
+
+
+  
+
+
+<div class="container anchor p-lg-5 about-section" id="about">
+  <div class="row pt-sm-2 pt-md-4 align-self-center">
+    
+    
+     <div class="col-sm-6"> 
+      <h3 class="p-1">Jack Wu</h3>
+      
+      <h5 class="p-1">
+        Ph.D
+        
+        at <a href="https://ustc.edu.cn/" title="中国科学技术大学" target="_blank" rel="noopener">中国科学技术大学</a>
+        
+      </h5>
+      
+      <p class="p-1 text-justify">
+        <p>我目前是中国科学技术大学的博士研究生，聚焦锂离子电池的梯次利用研究。我的研究聚焦于人工智能与锂离子电池梯次利用的交叉领域。欢迎各位同行、学者一同交流学习，共同进步。</p>
+<p style="text-align: right;"> - 最后更新于2025年5月28日
+      </p>
+      <div class="text-container ms-auto">
+        <ul class="social-link d-flex">
+          
+          <li>
+            
+              <a href="jackwu925@mail.ustc.edu.cn" title="邮箱" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://github.com/Aug99Jack" title="Github" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.researchgate.net/profile/Zhenwei-Wu-9" title="ResearchGate" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://orcid.org/0009-0002-7307-8864" title="ORCID" target="_blank" rel="noopener"><i class="fab fa-orcid"></i></a>
+            
+          </li>
+          
+        </ul>
+      </div>
+      
+      
+      <a href="/files/resume_zh.pdf" title="简历（中）" target="#"
+        ><button class="btn btn-dark">简历（中）</button></a
+      >
+      
+    </div>
+    
+    <div class="col-sm-6 pt-5 ps-md-4 ps-sm-3 pt-sm-0">
+      <div class="row">
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="https://ustc.edu.cn/" target="_blank" rel="noopener noreferrer">
+       <img src="https://s21.ax1x.com/2024/08/29/pAAcNge.png" alt="master" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="https://go.okstate.edu/" target="_blank" rel="noopener noreferrer">
+       <img src="https://s21.ax1x.com/2024/08/29/pAAcVhT.png" alt="undergraduate" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    <div class="certificate-badge">
+      <a href="https://en.swjtu.edu.cn/" target="_blank" rel="noopener noreferrer">
+       <img src="https://s21.ax1x.com/2024/08/29/pAA6jtf.png" alt="undergraduate" />
+      </a>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    <div class="circular-progress blue">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">普通话</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    <div class="circular-progress orange">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-30  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-50"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">英语</div>
+    </div>
+
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+
+    
+    
+    
+    
+    
+    
+    <div class="circular-progress green">
+    <span class="circular-progress-left">
+        <span
+        class="circular-progress-bar circular-progress-percentage-0  circular-progress-percentage-50-delay"
+        
+        ></span>
+    </span>
+    <span class="circular-progress-right">
+        <span
+        class="circular-progress-bar circular-progress-percentage-10"
+        
+        ></span>
+    </span>
+    <div class="circular-progress-value">西班牙语</div>
+    </div>
+
+</div>
+
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-secondary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 skills-section" id="skills">
+  
+    <h1 class="text-center">
+        <span id="skills"></span>技能</h1>
+  
+  
+  <div class="container d-flex-block">
+    <div class="row" id="primary-skills">
+  
+      
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/python_hu39c66cb65c2796b1da442c619835c55f_698010_24x24_fit_box_3.png" alt="Python" />
+          <h5 class="card-title">Python</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">擅长使用pandas、numpy、matplotlib库，能够高效地处理数据操作、分析和可视化任务。具备实现数据预处理、特征工程、统计分析等功能的能力。</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/battery_hu29076ac8c732ea6b970a8bd4f6fbc0e6_251097_24x24_fit_box_3.png" alt="热安全实验" />
+          <h5 class="card-title">热安全实验</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">具备丰富的热安全实验经验，能够进行电池热失控行为的深入分析，识别并评估电池在不同极端条件下的安全性表现。</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/linux_huf8888e89df43f58ab32b560cb211e230_26357_24x24_fit_box_3.png" alt="Linux" />
+          <h5 class="card-title">Linux</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">目前正在学习Linux，重点掌握命令行操作、shell脚本和系统管理，以提高我的科学研究能力。</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/machine-learning_hu3289f5c65a7f1c63a2c18ea0835790cd_40610_24x24_fit_box_3.png" alt="机器学习" />
+          <h5 class="card-title">机器学习</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">了解机器学习原理，包括监督学习和无监督学习，掌握各类常见算法的应用场景。熟悉回归、决策树、SVM、k-NN 和神经网络等模型。</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/deep-learning_hu1c17b6841ae3a25fce8d576137fdef53_45977_24x24_fit_box_3.png" alt="深度学习" />
+          <h5 class="card-title">深度学习</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">对深度学习技术和框架有基本的了解，掌握神经网络的基本结构与工作原理，熟悉反向传播算法、梯度下降优化方法和 PyTorch 等流行库等关键概念。</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/docker.svg" alt="Docker" />
+          <h5 class="card-title">Docker</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">对 Docker 和容器化概念有基本的了解。熟悉如何创建和管理容器，以及如何使用 Docker 镜像。</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, '
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/web.svg" alt="Web 开发" />
+          <h5 class="card-title">Web 开发</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">一名热衷于Web开发的技术爱好者，能够创建响应式和互动性强的网页，具备网页部署和服务器管理的经验。</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+
+
+
+<div class="container-fluid anchor pb-5 education-section">
+  
+    <h1 class="text-center">
+        <span id="education"></span>教育</h1>
+  
+
+  <div class="container">
+    <table class="education-info-table">
+        <tbody>
+            
+            
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+
+                            
+                            
+                            
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/USTC.png" alt="火灾科学国家重点实验室 - 硕博连读" />
+                                
+                            </div>
+                            
+
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5>中国科学技术大学</h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">2023 至今</div>
+                            </div>
+                            <h6>火灾科学国家重点实验室 - 硕博连读</h6>
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+
+                            
+                            
+                            
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/OSU.png" alt="安全科学与工程 - 本科生" />
+                                
+                            </div>
+                            
+
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5>俄克拉荷马州立大学</h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">2022-2023</div>
+                            </div>
+                            <h6>安全科学与工程 - 本科生</h6>
+                            
+                                <h6><span class="text-heading">GPA: </span><span>3.83</span> / <span>4</span></h6>
+                            
+                            
+                            
+                            
+                            <div class="taken-courses">
+                                <h6 class="text-heading">修读课程:</h6>
+                                
+                                
+                                <table>
+                                    <thead>
+                                        <th class="course-name-header">课程名称</th>
+                                        <th>总学分</th>
+                                        <th>获取学分</th>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr class="course ">
+                                            <td>Elements Indust Hygiene</td>
+                                            <td>A (4)</td>
+                                            <td>A (4)</td>
+                                        </tr>
+                                        
+                                        <tr class="course ">
+                                            <td>Indust Vent &amp; Smoke Control</td>
+                                            <td>A (4)</td>
+                                            <td>A (4)</td>
+                                        </tr>
+                                        
+                                        <tr class="course ">
+                                            <td>Risk Control Engineering</td>
+                                            <td>A (4)</td>
+                                            <td>A (4)</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Fire Dynamics</td>
+                                            <td>A (4)</td>
+                                            <td>B (3)</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Life Safety Analysis</td>
+                                            <td>A (4)</td>
+                                            <td>B (3)</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>System &amp; Process Safety Analysis</td>
+                                            <td>A (4)</td>
+                                            <td>B (3)</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Hazardous Materials Management</td>
+                                            <td>A (4)</td>
+                                            <td>B (3)</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                                
+                                
+                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-1"
+                                    id="show-more-btn">更多</button>
+                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-1"
+                                    id="show-less-btn">更少</button>
+                                
+                            </div>
+                            
+                            
+                            <div class="extracurricular-activities">
+                                <h6 class="text-heading">课外活动:</h6>
+                                <ul>
+                                
+                                    <li>科研助理 - Dr. Joshua Li</li>
+                                
+                                    <li>课程助教（静力学） -  Dr. Ramming</li>
+                                
+                                    <li>完成毕业设计 &ldquo;Conceptual Model Development for Wildland Urban Interface Fire Safety Performance Analysis&rdquo;</li>
+                                
+                                </ul>
+                            </div>
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            <tr>
+                <td class="icon">
+                    
+                    <div class="hline"></div>
+                    
+                        <div class="icon-holder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </td>
+                    <td class="line">
+                        <div></div>
+                    </td>
+                    <td class="details">
+                        <div class="degree-info card">
+
+                            
+                            
+                            
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/SWJTU.png" alt="安全科学与工程 - 本科生" />
+                                
+                            </div>
+                            
+
+                            <div class="row">
+                                <div class="col-lg-10 col-md-8">
+                                    
+                                        <h5>西南交通大学</h5>
+                                    
+                                </div>
+                                <div class="timeframe col-lg-2 col-md-4">2019-2022</div>
+                            </div>
+                            <h6>安全科学与工程 - 本科生</h6>
+                            
+                                <h6><span class="text-heading">GPA: </span><span>3.83</span> / <span>4</span></h6>
+                            
+                            
+                            
+                            
+                            <div class="taken-courses">
+                                <h6 class="text-heading">修读课程:</h6>
+                                
+                                
+                                <table>
+                                    <thead>
+                                        <th class="course-name-header">课程名称</th>
+                                        <th>总学分</th>
+                                        <th>获取学分</th>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr class="course ">
+                                            <td>Math I</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                        </tr>
+                                        
+                                        <tr class="course ">
+                                            <td>Math II</td>
+                                            <td>5</td>
+                                            <td>5</td>
+                                        </tr>
+                                        
+                                        <tr class="course ">
+                                            <td>Gen Chem for Engineers</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>General Physics I</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>College Physics II</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Survey of Organic Chemistry</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>ENGR Design with CAD</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Statics</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Fire Protection Hydraulic &amp; Water Suppression Analysis</td>
+                                            <td>4</td>
+                                            <td>4</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Thermodynamics</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Suppression &amp; Detection system</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Elementary Statistics (A)</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Technical Writing</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Fluid Mechanics</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Fundamentals of Management</td>
+                                            <td>3</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Combustion</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                        <tr class="course hidden-course">
+                                            <td>Engineering Thermodynamics</td>
+                                            <td>4</td>
+                                            <td>3</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                                
+                                
+                                    <button type="button" class="btn btn-link show-more-btn pt-0 ms-1"
+                                    id="show-more-btn">更多</button>
+                                    <button type="button" class="btn btn-link show-more-btn hidden pt-0 ms-1"
+                                    id="show-less-btn">更少</button>
+                                
+                            </div>
+                            
+                            
+                            <div class="extracurricular-activities">
+                                <h6 class="text-heading">课外活动:</h6>
+                                <ul>
+                                
+                                    <li>课程助教（流体力学） - Dr. Qiangdong Li</li>
+                                
+                                    <li>担任青年志愿者协会（非盈利组织）会长</li>
+                                
+                                </ul>
+                            </div>
+                            
+                            
+                        </div>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-secondary">
+            
+
+  
+
+
+<div class="container-fluid anchor pb-5 publications-section" id="publications">
+  
+    <h1 class="text-center">
+        <span id="publications"></span>发表</h1>
+  
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="pub-group" id="publication-filter-buttons">
+      
+      <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-all">
+        全部
+      </button>
+      
+      <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-machinelearning">
+        机器学习
+      </button>
+      
+      <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-batterysorting">
+        电池分选
+      </button>
+      
+      <button type="button" class="btn btn-dark pub-filtr-control" data-filter="pub-safety">
+        安全
+      </button>
+      
+    </div>
+  </div>
+  <div class="container filtr-publications">
+    <div class="row" id="publication-card-holder">
+      
+        
+
+  
+
+  
+
+
+<div
+  class="col-12 p-2 pub-filtr-item"
+  data-category='pub-all,pub-machinelearning,pub-batterysorting'
+>
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">一种基于支持向量机的退役电池快速分选方法（发明专利）</h5>
+      <div class="sub-title">
+        <span>
+          
+          <a class="" href="https://cponline.cnipa.gov.cn/index">State Intellectual Property Office</a>
+          
+        </span>
+        <span class="ms-2">2024年11月</span>
+      </div>
+      <div class="authors">
+        
+        
+          <span class="me-2"><a class="" href="https://en.sklfs.ustc.edu.cn/2017/0802/c5741a190208/page.htm">王青松</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://orcid.org/my-orcid?orcid=0009-0002-7307-8864">吴禛伟</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">段强领</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">李煌</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">金凯强</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">刘鹏杰</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://en.sklfs.ustc.edu.cn/2018/1127/c17183a356599/page.htm">孙金华</a></span>
+        
+        
+      </div>
+    </div>
+    <div class="card-body">
+      <p>该专利提出了一种利用支持向量机（SVM）算法对退役电池进行快速分选的方法。首先根据退役电池的外部参数构建二值特征向量，然后进行一次分类，区分梯次使用和直接回收的电池。之后对电池进行高倍率充电，获得增量容量（IC）曲线，提取关键特征作为二次分选指标。将这些结果与一次分类相结合，输入到多分类模型中，实现精准分选，提高处理不同健康状态电池的效率和准确性。</p>
+    </div>
+    <div class="card-footer">
+      <div class="tags">
+        
+            <span class="btn badge btn-info ms-1 p-2">
+              机器学习
+            </span>
+        
+            <span class="btn badge btn-info ms-1 p-2">
+              电池分选
+            </span>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+        
+
+  
+
+
+<div
+  class="col-12 p-2 pub-filtr-item"
+  data-category='pub-all,pub-安全'
+>
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Exploring the Viability of Cryogenic Freezing for Safe Pretreatment in Lithium-Ion Battery Recycling</h5>
+      <div class="sub-title">
+        <span>
+          
+          <a class="" href="https://www.sciencedirect.com/science/article/pii/S0960148125011437?via%3Dihub">Renewable Energy</a>
+          
+        </span>
+        <span class="ms-2">2025年5月</span>
+      </div>
+      <div class="authors">
+        
+        
+          <span class="me-2"><a class="" href="https://scholar.google.com.tw/citations?user=DyIU1DwAAAAJ&amp;hl=sr">Zheng Fang</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://orcid.org/my-orcid?orcid=0009-0002-7307-8864">Zhenwei Wu</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">Wei Zheng</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://chem4tech.unibs.it/">Elza Bontempi</a></span>
+        
+        
+        
+        <span class="me-2"><a class="">Qiangling Duan</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://en.sklfs.ustc.edu.cn/2018/1127/c17183a356599/page.htm">Jinhua Sun</a></span>
+        
+        
+        
+          <span class="me-2"><a class="" href="https://en.sklfs.ustc.edu.cn/2017/0802/c5741a190208/page.htm">Qingsong Wang</a></span>
+        
+        
+      </div>
+    </div>
+    <div class="card-body">
+      <p>Recycling of massive spent lithium-ion batteries (LIBs) is urgently required with the development of electric vehicles and energy storage industries. However, due to their complex composition and uncertain state, spent LIBs pose significant fire hazards during the recycling process. In this work, liquid nitrogen (LN) and dry ice (DI) were utilized as refrigerants to investigate the inerting mechanism and thermal stability of spent LIBs. Post-mortem and thermal analyses indicated that when spent LIBs are subjected to low temperatures (below −60 °C), the solidification of the electrolyte and the separation of internal components cause an increase in internal resistance, leading to a drop in terminal voltage where it cannot deliver energy. Nail penetration tests demonstrated that cryogenic freezing effectively suppresses thermal runaway, reducing peak internal battery temperatures from 921.2 °C to below 150 °C, with a temperature rise rate suppressed to under 3 °C/s. Additionally, DI exhibited a more sustained cooling effect than LN and is proposed as a safer and more cost-effective alternative for enhancing safety in LIBs recycling.</p>
+    </div>
+    <div class="card-footer">
+      <div class="tags">
+        
+            <span class="btn badge btn-info ms-1 p-2">
+              电池回收
+            </span>
+        
+            <span class="btn badge btn-info ms-1 p-2">
+              安全
+            </span>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+  
+
+
+
+
+
+
+<div class="container-fluid anchor pb-5 recent-posts-section">
+  
+    <h1 class="text-center">
+        <span id="recent-posts"></span>日志</h1>
+  
+  <div class="container">
+    <div class="row" id="recent-post-cards">
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/zh-cn/posts/travel-log/2025/0501/" class="post-card-link">
+        <img class="card-img-top" src='/posts/travel-log/2025/0501/cover.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/zh-cn/posts/travel-log/2025/0501/" class="post-card-link">
+        <h5 class="card-title">日照金山</h5>
+        <p class="card-text post-summary">旅行路上总是瞬息万变。这次，我们因为堵车、路况等情况，不断调整计划。不过，改变计划未必是坏事，我们来到了从未去过的地方。&amp;#x1f697; 车辆选择 长城越野·坦克300&amp;#x1f9ed; 自驾主干路线图 👣总里程：约2000km&amp;#x1f449; 文字版路线 成都东 ➡ 新都桥（住宿）➡ 巴塘县（住宿）➡ 玉龙拉措➡ 姊妹湖 ➡ 错通翠湖 ➡ 格底拉姆·天空之城 ➡ 甲根坝·梅朵垭口 ➡ 成都东&amp;#x1f3ac; 记录片段 日照金山Your browser does not support the video tag.&amp;ndash;&amp;gt;</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Thursday, May 1, 2025
+          </span>
+      <a
+      href="/zh-cn/posts/travel-log/2025/0501/"
+      class="float-end btn btn-outline-info btn-sm">阅读</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/zh-cn/posts/casual-writing/abroad/uk/" class="post-card-link">
+        <img class="card-img-top" src='/posts/casual-writing/abroad/uk/cover.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/zh-cn/posts/casual-writing/abroad/uk/" class="post-card-link">
+        <h5 class="card-title">英国</h5>
+        <p class="card-text post-summary">本篇用来记录我在留学申请过程中不断了解到的一些信息，供大家参考。需要补充的是，我本身是国内的学术硕士。语言要求 基础要求雅思6.5分（小分6） 进阶要求雅思7分（小分6.5） 高级要求雅思7.5（小分7） Timeline 以下是大概的时间规划，需要指出的是英国无需GRE，只需要雅思成绩 材料准备 学术经历陈述（Statement of Purpose） 个人陈述（PS） 简历（CV） 推荐信 本科、硕士英文成绩单 语言成绩（TOEFL/IELTS &amp;amp; GRE/GMAT 等） 本科学位证、毕业证 中英文硕士在读证明 更新于2025年1月11日（已停更）</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Saturday, January 11, 2025
+          </span>
+      <a
+      href="/zh-cn/posts/casual-writing/abroad/uk/"
+      class="float-end btn btn-outline-info btn-sm">阅读</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/zh-cn/posts/casual-writing/abroad/chitchat/" class="post-card-link">
+        <img class="card-img-top" src='/posts/casual-writing/abroad/chitchat/cover.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/zh-cn/posts/casual-writing/abroad/chitchat/" class="post-card-link">
+        <h5 class="card-title">闲谈</h5>
+        <p class="card-text post-summary">本篇谈谈我在不断学习过程中，对留学的各种想法和搜集到的各类信息，欢迎补充。留学的两面性 “一面” Bilingual 双语技能 更多的自由支配时间 多元人才（文化交融） 多样的选择 “二面” 孤独 文化差异 国内人际关系缺失 国内环境陌生（错过校招、对就业市场不敏感等） CSC申请 2025年1月9日国家留学基金委发布了《2025国家留学基金资助出国留学人员选派指南》
+官网： https://www.csc.edu.cn/chuguo/s/3460
+CSC评选的标准 学生优秀 国外院校排名靠前与国外导师卓越 研究计划可行、先进并切实贴近国内存在的问题 流程： 外导建立Connection - RP - Interview - 填报CSC系统
+2025年3月10日后，可在国外导师界面输入完整的导师名称查询当年申请人数（原则上1名导师1年CSC能够收2名博士生&#43;2名联培，特殊情况如导师是欧洲院士可多招，所以看到≥3的时候就大概率遇上海导了。
+CSC官网填报内容 官网： https://www.csc.edu.cn/article/3446
+A. 基本信息 B. 申请留学情况（重点资助学科及专业代码） C. 外语水平（CSC申请无须托雅成绩，只需要外导的语言证明，但外方学校录取大概率要求托雅成绩） D. 教育与工作经历 E. 主要学术成果（未发表/在审的论文在F中填写） F. 主要学术成果摘要（重中之重：3000字符得写满，个人学术成果摘要，论文摘要介绍，参与科研项目（课题）概述，获得奖励情况） G. 研修计划（重中之重：3000字符得写满，拟留学专业，拟研究课题，国内外研究情况及水平，拟留学国别、留学单位及选择原因，出国学习可行性，留学目的，预期目标，研究方法，时间规划，回国后工作/学习计划） H. 国内导师 I. 国外导师 J. 承诺书 以上内容来源于小红书 (id: Holmexuan)更新于2025年1月11日（已停更）</p>
+      </a>
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Saturday, January 11, 2025
+          </span>
+      <a
+      href="/zh-cn/posts/casual-writing/abroad/chitchat/"
+      class="float-end btn btn-outline-info btn-sm">阅读</a>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+  
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+      
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+      
+    
+  
+
+
+  
+  
+  
+    
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-start">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>导航</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jackwu925.github.io/zh-cn/#about">关于</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jackwu925.github.io/zh-cn/#skills">技能</a>
+                </li>
+              
+              
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://jackwu925.github.io/zh-cn/#publications">发表</a>
+                </li>
+              
+              
+              
+              
+              
+            
+              
+                
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>联系方式:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:jackwu925@mail.ustc.edu.cn target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>jackwu925@mail.ustc.edu.cn</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/jackwu925 target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>jackwu925</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2025 Copyright.</div>
+        <div class="col-md-4 text-end">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">提供者
+          <img
+            src="/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script src="/application.9c126f35ee359b63c8d25f6c32dc6d3df6c3bb0015235178b7625b6b30c289ff.js" integrity="sha256-nBJvNe41m2PI0l9sMtxtPfbDuwAVI1F4t2JbazDCif8=" defer></script>
+
+
+    
+</body>
+</html>
